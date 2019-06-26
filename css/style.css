@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body p {
+  font-family:
+}
+
+/*Début Header*/
+
+nav.desk{
+  background-color: #17a2b8;
+  /*height: 70px;
+  background-color: #17a2b8;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  position: absolute;
+  left: 0px;
+  right: 0px;*/
+}
+
+nav.desk ul{
+list-style: none;
+/* width: 75%;
+height: 100px;
+margin: 0 auto; */
+}
+
+
+nav.desk ul li{
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5 ease;
+  font-size: 14px;
+  margin-left: 135px;
+}
+
+nav.desk ul li a:hover  {
+  color: #fff;
+  background-color:#e17226;
+  background-size:cover;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 21px;
+  display: block;
+}
+
+nav.desk img {
+  height: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+/*Fin Header*/
+
+/*Début Page D'Accueil*/
+/* video{
+  width: 100%;
+  height: 130%;
+} */
+.container-no-gutters{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+video {
+  width: 100%;
+  /* margin-top: 8%; */
+}
+
+.sous-video {
+  /* margin-top: 150px; */
+}
+
+.plan{
+/* margin-top: 115px; */
+  text-align: center;
+}
+
+.plan img{
+  height: 350px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  /*margin-left: 370px;
+  margin-right: 370px;*/
+}
+
+.bloc p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #000;
+  font-size: 21px;
+  text-align: center;
+}
+
+.bloc1 {
+  display: inline-block;
+  height: 500px;
+}
+
+.bloc1 p {
+  margin-top: 75px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #000;
+  font-size: 21px;
+}
+
+.dessin {
+  height: 250px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+  .bloc2 {
+    background-color: rgba(182, 184, 182, 0.5);
+  }
+
+  .bloc2 p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #000;
+    font-size: 21px;
+  }
+
+  .section_accueil1 {
+    background-color: rgba(182, 184, 182, 0.25);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .section_accueil2 {
+    background-image: url(../image/fond3.jpg);
+  }
+/*Fin Page D'Accueil*/
+
+/*Début Page Histoire de la marque*/
+  .section_histoire {
+    background-color: rgba(182, 184, 182, 0.25);
+  }
+
+  .article-histoire {
+    background-color: rgba(182, 184, 182, 0.25);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .article-histoire p {
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 40px;
+  }
+
+  .article-histoire h1 {
+    color: #17a2b8;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .article-histoire1 {
+    text-align: center;
+  }
+
+  .article-histoire1 img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .image_histoire{
+    height: 164px;
+  }
+/*Fin Page Histoire de la Marque*/
+
+/*Début Page Magasin*/
+
+.accessoire_gatepro {
+  background-color: rgba(182, 184, 182, 0.5);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.accessoire_gatepro h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.accessoire_gatepro h2{
+  margin-top: 75px;
+}
+
+.accessoire_gatepro p{
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+.bouton_accessoire {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bouton_accessoire a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.accessoire_gatepro img {
+  height: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.accessoire_stylo {
+  background-color: rgba(182, 184, 182, 0.5);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.accessoire_stylo h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.accessoire_stylo img {
+  height: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.accessoire_stylo p{
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+.accessoire_housse {
+  background-color: rgba(182, 184, 182, 0.5);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.accessoire_housse h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.accessoire_housse img {
+  height: 275px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*Fin Page Magasin*/
+
+/*Début Page d'actualité*/
+.section_actu1 {
+background-color: rgba(182, 184, 182, 0.25);
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.article_actu1 {
+  text-align: center;
+}
+
+.article_actu1 h1 {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.article_actu1 img {
+height: 250px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.article_actu1 p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+/*Fin Page D'actualité*/
+
+/*Début de page contact*/
+#js-text {
+  height: 155px;
+}
+
+.tableau_espace {
+  margin-top: 25px;
+}
+/*Fin de page contact*/
+
+/*Début Page Panier*/
+.article_panier {
+  background-color: rgba(182, 184, 182, 0.25);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.article_panier h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 32px;
+}
+
+.article_panier h2 {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.panier_intérieur {
+  display: inline-block;
+  height: 350px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.panier_intérieur p {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-style: italic;
+}
+/*Fin Page Panier*/
+
+/* Début Mentions légales*/
+.article_mentions {
+  background-color: rgba(182, 184, 182, 0.25);
+  margin-top: 120px;
+  margin-bottom: 140px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.article_mentions h1 {
+  font-size: 26px;
+}
+/* Fin Mentions Légales*/
+
+/*Début Footer*/
+
+.footer {
+  background-color: #17a2b8;
+}
+
+.footer ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.footer ul li a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container_footer2 {
+  margin-top: 80px;
+}
+/*Fin Footer*/
+
+/*Début Pages Des Accessoires*/
+/*Début Page Gatepro*/
+.article_gatepro {
+  text-align: center;
+}
+
+.article_gatepro h1 {
+  font-size: 26px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.article_gatepro h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.article_gatepro a {
+  text-decoration: none;
+  color: #000;
+}
+
+.article_gatepro img {
+  height: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.h1_produit {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+/*Fin Page Gatepro*/
+/*Fin Pages Des Accessoires*/
